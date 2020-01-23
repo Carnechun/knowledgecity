@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <script src="scripts/jquery.js"></script>
+        <link rel="stylesheet" href="style/style.css?=1.034">
+        <script src="scripts/ajax.js?=1.041"></script>
+        
+        <script src="scripts/interactions.js?=1.042"></script>
+        <script></script>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+        <link href="https://fonts.googleapis.com/css?family=Rasa&display=swap" rel="stylesheet">
+    
+        <script>
+                $(document).ready(function(){
+                
+                    tokenInSystem();
+
+                    $("#submitBtn").click(function(){        
+                        $("#myForm").submit(); // Submit the form
+                        
+                    });
+                });
+                </script>
+    </head>
+    <body>
+        <section class="login-section">
+            <div class="container">
+                <div id="login-container">
+                    <div id="logo-container">
+                        <object data="assets/Logo.svg" type="image/svg+xml">
+                            <img src="yourfallback.jpg" />
+                          </object>
+                    </div>
+                    <div id="title-container">
+                        <h1>Welcome to learning management system</h1>
+                        <h2>please log in to continue</h2>
+                    </div>
+                    <div id="form-container">
+                        <form action="http://localhost/knowledgecity/login.php" method="post" id="myForm">
+                            <input type="text" placeholder="name" name="username" required>
+                            <input type="password" placeholder="password" name ="password" required>
+                            <label><input type="checkbox" name="remember" value="true"> remember me</label>
+                            <input id="submitBtn" type="submit" value="log in">
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
