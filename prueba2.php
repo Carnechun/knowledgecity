@@ -8,8 +8,9 @@
 	
 	echo $objeto->get_edad();
 	
+
 	echo "xd hola";
-	
+
 	
 	
 	
