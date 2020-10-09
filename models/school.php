@@ -34,7 +34,8 @@
 
 
             }
-
+12268100 
+cmasistencia VIDABMX01
 
         }
         public function get_students($page,$rows_per_page)
@@ -51,7 +52,7 @@
 
             while($command->fetch())
             { 
-               
+                echo $username;
                 $o=new Student($username,$firstname,$surname,$group,$school);
                 array_push($list, $o->to_array());
             }
