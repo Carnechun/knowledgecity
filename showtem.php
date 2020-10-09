@@ -21,5 +21,8 @@ function procmsg($topic,$msg){
          ob_clean() ;
   echo "$msg";
 }
-
+function message()
+{
+	echo "hola";
+}
 ?>
