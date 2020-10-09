@@ -8,13 +8,11 @@
 	
 	echo $objeto->get_edad();
 	
-	echo "xd hola";
-	
-	echo "soy un pirata"
-	
-	
-	
-	
-	
+	function message()
+	{
+		$var = "mensaje";
+		
+		echo $var;
+	}
 	
 ?>
