@@ -7,13 +7,4 @@
 	echo $objeto->NombreCompleto()."<br>";
 	
 	echo $objeto->get_edad();
-	
-
-	echo "xd hola";
-
-	
-	
-	
-	
-	
 ?>
